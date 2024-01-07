@@ -1,4 +1,107 @@
-{% extends "base.html"%} {% block title %}Home{% endblock %}
-{% block content%}
-<h1> Home page content here</h1> 
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <div class="container text-center">
+        <h1>Welcome to PyPark!</h1>
+        <br/>
+        <h3>Spaces Available:</h3>
+        <br/>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center" style="min-height: calc(100vh - 300px);">
+        <div class="scrollable-frame" style="max-height: calc(100vh - 300px); overflow-y: auto; overflow-x: hidden; width: 80%;">
+            <!-- Real Row -->
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <p>Drake's Parking Space</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <form method="POST">
+                        <button type="submit" class="btn btn-primary btn-lg">Book</button>
+                    </form>
+                </div>
+            </div>
+            <br/>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <p>Fred's Parking Space</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <button type="button" class="btn btn-primary btn-lg">Book</button>
+                </div>
+            </div>
+            <br/>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <p>Grocery Store Space #1</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <button type="button" class="btn btn-primary btn-lg">Book</button>
+                </div>
+            </div>
+            <br/>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <p>Grocery Store Space #2</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <button type="button" class="btn btn-primary btn-lg">Book</button>
+                </div>
+            </div>
+            <br/>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <p>Grocery Store Space #3</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <button type="button" class="btn btn-primary btn-lg">Book</button>
+                </div>
+            </div>
+            <br/>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <p>Grocery Store Space #4</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <button type="button" class="btn btn-primary btn-lg">Book</button>
+                </div>
+            </div>
+            <br/>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <p>University Parking #1</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <button type="button" class="btn btn-primary btn-lg">Book</button>
+                </div>
+            </div>
+            <br/>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <p>University Parking #2</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <button type="button" class="btn btn-primary btn-lg">Book</button>
+                </div>
+            </div>
+            <br/>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <p>University Parking #3</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <button type="button" class="btn btn-primary btn-lg">Book</button>
+                </div>
+            </div>
+            <br/>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <p>University Parking #4</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <button type="button" class="btn btn-primary btn-lg">Book</button>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
