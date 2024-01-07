@@ -78,7 +78,6 @@ def check_serial_data():
             parking_spot.owner = None
             db.session.commit()
             not_occupied = True
-            flash("Drake's Parking Space is Now Open!", category='success')
         if serial_data == "0":
             unknown_user = User.query.filter_by(email='unknown@example.com').first()
             if not unknown_user:
@@ -89,4 +88,3 @@ def check_serial_data():
             parking_spot.owner = unknown_user
             db.session.commit()
             not_occupied = False
-            flash("Drake's Parking Space is taken!", category='error')
