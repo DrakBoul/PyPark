@@ -16,9 +16,15 @@
                     <p>Drake's Parking Space</p>
                 </div>
                 <div class="col-md-6 d-flex justify-content-end">
-                    <form method="POST">
-                        <button type="submit" class="btn btn-primary btn-lg">Book</button>
-                    </form>
+                    {% if parking_spot.owner == current_user %}
+                        <button type="button" class="btn btn-success btn-lg" disabled>Booked</button>
+                    {% elif parking_spot.owner is not none %}
+                        <button type="button" class="btn btn-danger btn-lg" disabled>Booked</button>
+                    {% else %}
+                        <form method="POST">
+                            <button type="submit" class="btn btn-primary btn-lg">Book</button>
+                        </form>
+                    {% endif %}
                 </div>
             </div>
             <br/>
