@@ -10,3 +10,13 @@ For a quick demo of PyPark see my YouTube Channel!
 Link: YouTube Demo coming soon!
 
 ## Parts and Data Sheets
+
+__Note: The following parts and data sheets were the ones used specifically for the creators implementation.__
+
+* ELEGOO UNO R3 Board (
+[Data Sheet](https://epow0.org/~amki/car_kit/Datasheet/ELEGOO%20UNO%20R3%20Board.pdf))
+* 3 x 220 Ohm Resistor ([Data Sheet](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:c906d8db-da1e-35cf-9b43-42f47f67a175))
+* Common Cathode RGB LED ([Data Sheet](https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:0b488878-efd7-4155-b3ab-c87b0b19fe6f))
+* RC522 RFID Module ([Data Sheet](https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:a0a71096-326a-4ac2-88fd-325143133633))
+* Ultrasonic Sensor ([Data Sheet](https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:de3336d2-2dc3-4530-aea0-314efd47b140))
+* Breadboard Power Supply Module ([Data Sheet](https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:caedbf4e-47a1-4bd0-a852-d53e7a3e5b3c))
